@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Compile Java Code
-      run: javac -d bin/ src/BinaryToDecimal
+      run: javac -d bin/ src/BinaryToDecimal.java
