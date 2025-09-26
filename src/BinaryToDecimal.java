@@ -43,8 +43,12 @@ public class BinaryToDecimal
 			multiplier = multiplier * 2;
 			
 		}
-		
-		System.out.printf("        Binary Number: %s \nDecimal equivalant is: %d", binaryString, decimalNumber);
+
+        System.out.println(decimalNumber);
+		System.out.println();
+        System.out.println("Binary Number:  " + binaryString);
+        System.out.println("Decimal equivalant is:  " + decimalNumber);
+        System.out.println();
 		
 	}
 
